@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<br>
+<center>
+<button type="button" class="btn btn-outline-secondary"><a href="/">Home</a></button>
+<button type="button" class="btn btn-outline-secondary"><a href="/contact_us">Contact Us</a></button>
+<button type="button" class="btn btn-outline-secondary"><a href="/about_us">About Us</a></button>
+</center>
+<br>
+<title>HELP</title>
+<div>
+<h2>HELP PAGE</h2>
+<div class = "card">
+<h3> Q1. Where is the data collected from?</h3>
+<p> For more information on kinases visit: <cite><a href="http://www.kinhub.org/kinases.html">Kinhub</a></cite></p>
+<p> For more information on Inhibitors visit: <cite><a href="http://www.icoa.fr/pkidb/">PKIDB</a></cite></p>
+<p> For more information on Phosphosites visit: <cite><a href="https://www.phosphosite.org/staticDownloads">Phophosite plus</a></cite></p>
+</div>
+<div class = "card">
+<h3> Q2. What are the filters used for the Inhibitors?</h3>
+<p> <b>Molecular Descriptors:</b>
+<br>- RoF = Lipinski's rule of five (number of violation).
+<br>- LogP = Log of Partition Coefficient.
+<br>- TPSA = Topological Polar Surface Area.
+<br>- HBA = number of Hydrogen Bond Acceptor.
+<br>- HBD = number of Hydrogen Bond Donor.
+<br>- NRB = Number of Rotatable Bonds.
+<br> <b>The average values considered for the descriptors were as follows:</b>
+<br>- Have a molecular weight (MW) between 309 and 617 Da (average of 463.3)
+<br>- Have a ClogP (calculated with RDKit) between 1.4 and 6.7 (average of 4.0)
+<br>- Contain between 0 and 4 hydrogen bond donors (HBD) (average of 2.1)
+<br>- Contain between 3 and 11 hydrogen bond acceptors (HBA) (average of 6.7)
+<br>- Have a topological polar surface area (TPSA) between 54 and 140 Å2 (average of 96.8)
+<br>- Contain between 1 and 11 rotatable bonds (NRB) (average of 6.2)</p>
+</div>
+<div class = "card">
+<h3> Q3. How neighbouring sequences affect the phoshorylation sites? </h3>
+<p> The neighbouring sequences affect the 3D structure of the protein which in turn affects the phosphorylation sites.</p>
+</div>
+<div class = "card">
+<h3> Q4. What do the terms SMILES and InCHI refer to?</h3>
+<p> <b>SMILES</b> (Simplified Molecular Input Line Entry System) is a chemical notation that allows a user to represent a chemical structure in a way that can be used by the computer.
+<br><br>
+The <b>IUPAC InCHI</b> (International Chemical Identifier) is a textual identifier for chemical substances which are designed to provide a standard way to encode molecular information and to facilitate the search for such information in databases and on the web.</p>
+</div>
+<div class = "card">
+<h3> Q5. What are the chromosome X,chromosome Y & chromosome MT refer to?</h3>
+<p> The <b>X & Y chromosome</b> are the two sex chromosomes.Females have two X chromosomes, while males have one X and one Y chromosome.
+<br> <b>MT chromosome</b> is a small circular chromosome composed of mitochondrial DNA usually found inside mitochondria.</p>
+</div>
+</div>
+</body>
+</html>
