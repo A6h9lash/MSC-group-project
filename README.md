@@ -2,4 +2,5 @@
 
 # web workshop
 
-## Web App Deployment Link: http://flask-env1.iavvm6xcmw.us-east-2.elasticbeanstalk.com/
+## Web App Link: 
+http://kincyclopedia.eu-west-2.elasticbeanstalk.com/
