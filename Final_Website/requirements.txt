@@ -113,7 +113,7 @@ python-debian==0.1.34
 python-form==0.2.3
 pytz==2018.9
 pyxdg==0.25
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==18.1.0
 qtconsole==4.5.5
 reportlab==3.5.18
