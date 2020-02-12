@@ -10,7 +10,7 @@ All the search functions in the website were linked to a database, which contain
 
 
 ## Packages required to run the website
-'''
+
 bokeh==1.4.0 <br/>
 certifi==2019.11.28 <br/>
 chardet==3.0.4 <br/>
@@ -36,7 +36,6 @@ tornado==6.0.3 <br/>
 urllib3==1.25.8 <br/>
 Werkzeug==1.0.0 <br/>
 WTForms==2.2.1 <br/>
-'''
 
 You could install all the packages bby using the following command:
 
@@ -46,9 +45,7 @@ pip install -r requirements.txt
 
 Download the Final_Website folder and run the following command after installing all the packages
 
-'''
 python main.py
-'''
 
 ## Contributors
 
