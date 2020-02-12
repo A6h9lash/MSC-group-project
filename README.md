@@ -13,31 +13,31 @@ All the search functions in the website were linked to a database, which contain
 
 ### Getting strated
 
-bokeh==1.4.0
-certifi==2019.11.28
-chardet==3.0.4
-Click==7.0
-Flask==1.1.1
-Flask-SQLAlchemy==2.4.1
-idna==2.8
-itsdangerous==1.1.0
-Jinja2==2.11.1
-MarkupSafe==1.1.1
-numpy==1.18.1
-packaging==20.1
-pandas==1.0.1
-Pillow==7.0.0
-pyparsing==2.4.6
-python-dateutil==2.8.1
-pytz==2019.3
-PyYAML==5.3
-requests==2.22.0
-six==1.14.0
-SQLAlchemy==1.3.13
-tornado==6.0.3
-urllib3==1.25.8
-Werkzeug==1.0.0
-WTForms==2.2.1
+bokeh==1.4.0 <br/>
+certifi==2019.11.28 <br/>
+chardet==3.0.4 <br/>
+Click==7.0 <br/>
+Flask==1.1.1 <br/>
+Flask-SQLAlchemy==2.4.1 <br/>
+idna==2.8 <br/>
+itsdangerous==1.1.0 <br/>
+Jinja2==2.11.1 <br/>
+MarkupSafe==1.1.1 <br/>
+numpy==1.18.1 <br/>
+packaging==20.1 <br/>
+pandas==1.0.1 <br/>
+Pillow==7.0.0 <br/>
+pyparsing==2.4.6 <br/>
+python-dateutil==2.8.1 <br/>
+pytz==2019.3 <br/>
+PyYAML==5.3 <br/>
+requests==2.22.0 <br/>
+six==1.14.0 <br/>
+SQLAlchemy==1.3.13 <br/>
+tornado==6.0.3 <br/>
+urllib3==1.25.8 <br/>
+Werkzeug==1.0.0 <br/>
+WTForms==2.2.1 <br/>
 
 You could install all the packages bby using the following command:
 
