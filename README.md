@@ -54,3 +54,7 @@ python main.py
 [Samia A](https://github.com/sasvid) <br/>
 [Solomon P](https://github.com/studgesol) <br/>
 [Tong M](https://github.com/Tong186) <br/>
+
+## Acknowledgments
+
+Thanks to Prof Conrad Bessant and Dr Fabrizio Smeraldi for your support.
