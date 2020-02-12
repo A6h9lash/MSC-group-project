@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ## Contributors
 
-[Abihilash R S](https://github.com/A6h9lash) <br/>
+[Abhilash R S](https://github.com/A6h9lash) <br/>
 [Arun R](https://github.com/ArunRetnakumar) <br/>
 [Samia A](https://github.com/sasvid) <br/>
 [Solomon P](https://github.com/studgesol) <br/>
