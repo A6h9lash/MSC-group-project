@@ -42,3 +42,12 @@ WTForms==2.2.1 <br/>
 You could install all the packages bby using the following command:
 
 pip install -r requirements.txt
+
+
+## Contributors
+
+[Abihilash](https://github.com/A6h9lash)
+[Arun](https://github.com/ArunRetnakumar)
+[Samia](https://github.com/sasvid)
+[Solomon](https://github.com/studgesol)
+[Tong](https://github.com/Tong186)
