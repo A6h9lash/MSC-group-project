@@ -4,9 +4,12 @@
 http://kincyclopedia.eu-west-2.elasticbeanstalk.com/
 
 ## Kincyclopedia: Software Group Development Project
-Kincyclopedia was developed by a group of five students part of the MSc Bioinformatics course from the Queen Mary's University of London, under the supervision of Prof Conrad Bessant and Dr Fabrizio Smeraldi.
+When the complete human genome was sequenced, research into identification and characterisation of human protein kinases became more prevalent. Kinases are a protein class that chemically add phosphoryl groups to themselves (auto-phosphorylation) or other proteins (substrates) through a process called phosphorylation. The sites where phosphorylation occurs are defined as phosphosites.
 
-All the search functions in the website were linked to a database, which contained kinases, inhibitors and phosphosites information. This information was used to produce a report card for the search string given by the user. An important feature apart from the search function is the phosphoproteomics data analysis tool, which produces a result in three categories bar plot representing the relative kinase activity and relative inhibited kinase activity, volcano plot for the complete protein and a volcano plot for all the identified kinases. All the files which were used to these plots can be downloaded for further use.
+Kincyclopedia is a web application developed by a group of five students part of the MSc Bioinformatics course from Queen Mary University of London, under the supervision of Prof Conrad Bessant and Dr Fabrizio Smeraldi. The ultimate aim of our application is to act as a central hub for information on human kinases, all of their known phosphosites and kinase inhibitors. 
+
+An important feature apart from the search function is the phosphoproteomics data analysis tool, which produces a result in three categories bar plot representing the relative kinase activity and relative inhibited kinase activity, volcano plot for the complete protein and a volcano plot for all the identified kinases. All the files which were used to these plots can be downloaded for further use.
+
 
 
 ## Packages required to run the website
