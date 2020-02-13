@@ -14,67 +14,6 @@
     <link rel="stylesheet" href={{cdn_css | safe}} type="text/css" />
     <script type="text/javascript" src={{cdn_js | safe}}></script>
 </head>
-<style type='text/css'>
-  .my-legend .legend-title {
-    text-align: left;
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 90%;
-    }
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-  .my-legend .legend-scale ul {
-    margin: 0;
-    margin-bottom: 5px;
-    padding: 0;
-    float: left;
-    list-style: none;
-    }
-  .my-legend .legend-scale ul li {
-    font-size: 80%;
-    list-style: none;
-    margin-left: 0;
-    line-height: 18px;
-    margin-bottom: 2px;
-    }
-  .my-legend ul.legend-labels li span {
-    display: block;
-    float: left;
-    height: 16px;
-    width: 30px;
-    margin-right: 5px;
-    margin-left: 0;
-    border: 1px solid #999;
-    }
-  .my-legend .legend-source {
-    font-size: 70%;
-    color: #999;
-    clear: both;
-    }
-  .my-legend a {
-    color: #777;
-    }
-</style>
-
 <body>
 <br>
 <center>
@@ -107,14 +46,16 @@
                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12 w3-light-grey">Volcano Plot of the Log Fold Change and Log p-value for Complete Protein</h3>
                 <p><b>* Horizontal line at 2.0 denotes 1% significance (-log(0.01)=2.0).<br>* Horizontal line at 2.0 denotes 1% significance (-log(0.05)=1.3).</b></p>
 		{{html_1 | safe}}</p>
-                <br></center></div>
+            <br><b>Download the volcano plot table file here (.csv format):</b>
+<a href="{{ url_for('static', filename='volplot_table.csv') }}"><button class='w3-btn w3-padding w3-teal '>Download Volcano plot table</button></a>
+                <br></center><br></div>
   <div id="Filtered_Protein_Volcano_Plot" class="w3-container city" style="display:none">
                 <center>
                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-12 w3-light-grey">Volcano Plot of the Log Fold Change and Log p-value for All Identified Kinases</h3>
                 <p><b>* Horizontal line at 2.0 denotes 1% significance (-log(0.01)=2.0).<br>* Horizontal line at 2.0 denotes 1% significance (-log(0.05)=1.3).</b></p>
 		{{html_2 | safe}}</p>            
             <br><b>Download the volcano plot table file here (.csv format):</b>
-<a href="{{ url_for('static', filename='volplot_table.csv') }}"><button class='w3-btn w3-padding w3-teal '>Download Volcano plot table</button></a></center><br></div>
+<a href="{{ url_for('static', filename='filtered_volplot_table.csv') }}"><button class='w3-btn w3-padding w3-teal '>Download Volcano plot table</button></a></center><br></div>
             <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </body>
 

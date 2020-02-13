@@ -107,8 +107,8 @@ def rka_barchart(kinasedf):
     plot1.xaxis.axis_label ="Relative Kinase Activity (AU)"
     plot1.x_range.start = 0
     plot1.yaxis.axis_label="Kinase"
-    plot1.hbar(y=dodge('Kinase',-0.25, range=plot1.y_range), right='Relative_Kinase_Activity', height=0.45, source=src, color='#2F4F4F', legend='Relative Kinase Activity')
-    plot1.hbar(y=dodge('Kinase',0.25, range=plot1.y_range), right='Relative_Inhibited_Kinase_Activity', height=0.45, source=src, color="#e84d60", legend='Relative Inhibited Kinase Activity')
+    plot1.hbar(y=dodge('Kinase',-0.25, range=plot1.y_range), right='Relative_Kinase_Activity', height=0.45, source=src, color='#2F4F4F', legend_label='Relative Kinase Activity')
+    plot1.hbar(y=dodge('Kinase',0.25, range=plot1.y_range), right='Relative_Inhibited_Kinase_Activity', height=0.45, source=src, color="#e84d60", legend_label='Relative Inhibited Kinase Activity')
     plot1.add_tools(hover)
     return plot1
 
@@ -143,6 +143,7 @@ def volplot_1(df1):
 def volplot_2(df1):
     #Data for volcano plot 2:
     df1=df1.dropna(how='any')
+    filtered_volplot_table=df1.to_csv('./static/filtered_volplot_table.csv', sep=',')
     df1 = df1[df1.Fold_change != 0] #remove rows where fold change is 0
     df1["Log_Fold_change"]=np.log2(df1["Fold_change"])
     df1["Log_p_value"]=-np.log10(df1["p_value"])

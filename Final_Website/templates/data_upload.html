@@ -10,7 +10,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" type="text/css" href="static/css/main.css">
-<main>
 <body>
 <br>
 <center>
@@ -21,7 +20,7 @@
 </center>
 <br>
 <br><br>
-  <div class="w3-card w3-border-bottom w3-border-light-grey w3-padding-12 w3-light-grey">      
+  <div class="w3-card w3-border-bottom w3-border-light-grey w3-padding-12 w3-light">      
           <br>
           <center>
             <p> Upload and analyse your Phosphoproteomic Data NOW! </p>
@@ -32,14 +31,8 @@
             <input style="text-align:center;" type="file" name="file" accept=".tsv">
             <input class=searchButton type=submit value=Upload onClick="$('#loading').show();">
                          File format accepted: <b>'.tsv'</b>
-
-<form id="form1" runat="server">
-<div>
-<asp:Label ID="Label1" runat="server" Font-Bold="True" Text="Name:"></asp:Label>
-</div>
-</form>
 <br><br>
-<div class= loading id="loading" style="display:none;"><button class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span></button><br>LOADING!<br>PLEASE WAIT! THIS MAY TAKE FEW MINUTES....</div>            
+<div class= loading id="loading" style="display:none;"><img src="{{ url_for('static', filename='Loading.gif') }}" height="150"><br>LOADING!<br>PLEASE WAIT! THIS MAY TAKE A FEW MINUTES....</div>            
 </form><br>
 </div>
 </center>

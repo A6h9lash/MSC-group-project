@@ -12,7 +12,8 @@
 /* Style the header */
 .header {
   color: white;
-  background-image:url("https://promega.media/-/media/images/resources/kinase/kinome_full.jpg?la=en");
+  background-image: url("./static/kinome_full.jpg");
+  background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 50px;
   text-align: center;
@@ -39,15 +40,16 @@
 
 /* Footer */
 .footer {
-  position: fixed;
-  bottom: 0;
+  position: -webkit-sticky;
+  position: sticky;
   width: 100%;
+  bottom: 0;
   color: white;
   padding: 10px;
   text-align: center;
-  background: url("https://www.eema.org/wp-content/uploads/footer-background.jpg");
+  background: url("./static/footer-background.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
-  margin-top: 10px;
 }
 </style>
 </head>
