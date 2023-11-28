@@ -15,29 +15,29 @@ An important feature apart from the search function is the phosphoproteomics dat
 ## Packages required to run the website
 
 bokeh==1.4.0 <br/>
-certifi==2019.11.28 <br/>
+certifi>=2023.7.22 <br/>
 chardet==3.0.4 <br/>
 Click==7.0 <br/>
-Flask==1.1.1 <br/>
+flask>=2.2.5 <br/>
 Flask-SQLAlchemy==2.4.1 <br/>
 idna==2.8 <br/>
 itsdangerous==1.1.0 <br/>
 Jinja2==2.11.3 <br/>
 MarkupSafe==1.1.1 <br/>
-numpy==1.18.1 <br/>
+numpy==1.22.0 <br/>
 packaging==20.1 <br/>
 pandas==1.0.1 <br/>
-Pillow==8.1.1 <br/>
+pillow>=10.0.1 <br/>
 pyparsing==2.4.6 <br/>
 python-dateutil==2.8.1 <br/>
 pytz==2019.3 <br/>
 PyYAML==5.4 <br/>
-requests==2.22.0 <br/>
+requests>=2.31.0 <br/>
 six==1.14.0 <br/>
 SQLAlchemy==1.3.13 <br/>
-tornado==6.0.3 <br/>
-urllib3==1.25.8 <br/>
-Werkzeug==1.0.0 <br/>
+tornado>=6.3.3 <br/>
+urllib3>=1.26.18 <br/>
+werkzeug>=2.3.8 <br/>
 WTForms==2.2.1 <br/>
 
 You could install all the packages by using the following command:
